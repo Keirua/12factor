@@ -4,15 +4,14 @@
 La *configuration* d'une application c'est tout ce qui est susceptible de varier entre des [déploiement](./codebase) (validation, production, environnement de développement, etc). Cela inclue :
 
 * Les ressources gérées par la base de données, Memcached, ou tout autre [service de stockage](./backing-services)
-* Les autorisations (!!credentials) pour des services externes, tel qu'Amazon S3 ou Twitter
-* Les valeurs par déploiement, tel que les hôtes canoniques du déploiement (!!Per-deploy values such as the canonical hostname for the deploy)
+* Les identifiants pour des services externes, tel qu'Amazon S3 ou Twitter
+* Les valeurs spécifiques au déploiement, tel que son nom d'hôte canonique
 
 Les applications stockent parfois la configuration avec des constantes dans le code. C'est une violation des 12 facteurs, qui requiert une **stricte séparation de la configuration et du code**. La configuration peut varier substantiellement à travers les déploiement, alors que ce n'est pas le cas du code.
 
-Un bon moyen de tester si une application a correctement séparé son code, c'est de se demander si l'application pourrait être rendu open-source à tout instant, sans compromettre de données sensibles (mos de passes, identifiants !!credentials).
+Un bon moyen de tester si une application a correctement séparé son code, c'est de se demander si l'application pourrait être rendu open-source à tout instant, sans compromettre d'identifiants.
 
-
-Notez que cette définition de "configuration" n'inclut **pas** la configuration interne de l'application, tel que `config/routes.rb` avec Rails, ou comment [les modules du noyau sont connecté](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html) dans [Spring](http://spring.io/). Ce type de configuration ne varie pas à travers les déploiement, et est ainsi mieux fait via le code (!!).
+Notez que cette définition de "configuration" n'inclut **pas** la configuration interne de l'application, tel que `config/routes.rb` avec Rails, ou comment [les modules du noyau sont connecté](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html) dans [Spring](http://spring.io/). Ce type de configuration ne varie pas à travers les déploiement, et est ainsi mieux réalisé via le code.
 
 Une autre approche de la configuration, c'est d'utiliser des fichiers de configuration qui ne sont pas inclus dans le système de contrôle de version, comme par exemple `config/database.yml` de Rails. C'est une amélioration considérable par rapport à l'utilisation de constantes qui sont versionnées dans le dépôt de code, mais a toujours des faiblesses : il est facile d'ajouter par inadvertance un fichier de configuration dans le dépot. Il y a une tendance à ce que les fichiers de configuration soient dispersés à différents endroits et dans différents formats, rendant ainsi difficile de voir et gérer la configuration à un unique endroit. De plus, ces formats ont tendances à être spécifiques à un language ou un framework.
 

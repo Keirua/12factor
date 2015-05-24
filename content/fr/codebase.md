@@ -7,8 +7,7 @@ Une *codebase* correspond à chaque dépot (dans un système de contrôle de ver
 
 ![Une codebase est associée à plusieurs déploiements](/images/codebase-deploys.png)
 
-Il y a toujours une relation 1-1 (!! one-to-one correlation) entre la codebase et l'application :
-There is always a  between the codebase and the app:
+Il y a toujours un rapport direct entre la codebase et l'application :
 
 * S'il y a plusieurs codebases, ce n'est pas une application, c'est un système distribué. Chaque composant du système distribué est une application, et chacun, peut, individuellement, respecter la méthodologie 12 facteurs.
 * Plusieurs applications qui partagent le même code est une violation des 12 facteurs. La solution dans ce cas est de factoriser le code partagé dans des librairies qui peuvent être intégrées via un [gestionnaire de dépendances](./dependencies).

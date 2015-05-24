@@ -9,4 +9,4 @@ A l'époque actuelle, les logiciels sont régulièrement délivrés en tant que 
 * **Minimisent la divergence** entre le développement et la production, ce qui permet le *déploiement continue* pour une agilité maximum;
 * et peuvent **grossir verticalement** sans changements significatifs dans les outils, l'architecture ou les pratiques de développement;
 
-La méthodologie 12-facteurs peut être appliquée à des applications écrites dans tout langage de programmation, et qui utilisent tout type de services de sauvegarde !!(backing services) (base de donnée, file, cache mémoire, etc.)
+La méthodologie 12 facteurs peut être appliquée à des applications écrites dans tout langage de programmation, et qui utilisent tout type de services externes (base de donnée, file, cache mémoire, etc.)
