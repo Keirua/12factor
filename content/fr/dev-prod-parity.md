@@ -1,4 +1,4 @@
-## X. La parité Dev/prod
+## X. Parité dev/prod
 ### Gardez le développement, la validation et la production aussi proches que possible
 
 Historiquement, il y a eu un fossé conséquent entre le développent (un développeur qui fait des modifications sur un [déploiement](./codebase) local de l'application) et la production (un déploiement de l'application accessible aux utilisateurs finaux). Ce fossé se manifeste de trois manières :

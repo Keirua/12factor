@@ -1,4 +1,4 @@
-## IV. Les services externes
+## IV. Services externes
 ### Traitez les services externes comme des ressources attachées
 
 Un *service externe* (backing service) correspond à tout service que l'application utilise à travers le réseau pour son fonctionnement nominal. Cela concerne par exemple les bases de données (tel que [MySQL](http://dev.mysql.com/) ou [CouchDB](http://couchdb.apache.org/)), les systèmes de messages/files (tel que [RabbitMQ](http://www.rabbitmq.com/) ou [Beanstalkd](http://kr.github.com/beanstalkd/)), les services SMTP pour l'envoi d'email (comme [Postfix](http://www.postfix.org/)), ainsi que les systèmes de cache (comme [Memcached](http://memcached.org/)).

@@ -2,37 +2,37 @@ Les 12 facteurs
 ==================
 
 ## [I. Codebase](./codebase)
-### One codebase tracked in revision control, many deploys
+### Une codebase suivie avec un système de contrôle de version, plusieurs déploiements
 
-## [II. Dependencies](./dependencies)
-### Explicitly declare and isolate dependencies
+## [II. Dépendances](./dependencies)
+### Déclarez explicitement et isolez les dépendances
 
-## [III. Config](./config)
-### Store config in the environment
+## [III. Configuration](./config)
+### Stockez la configuation dans l'environnement
 
-## [IV. Backing Services](./backing-services)
-### Treat backing services as attached resources
+## [IV. Services externes](./backing-services)
+### Traitez les services externes comme des ressources attachées
 
 ## [V. Build, release, run](./build-release-run)
-### Strictly separate build and run stages
+### Séparez strictment les étapes d'assemblage et d'exécution
 
-## [VI. Processes](./processes)
-### Execute the app as one or more stateless processes
+## [VI. Processus](./processes)
+### Exécutez l'application comme un ou plusieurs processus sans états
 
-## [VII. Port binding](./port-binding)
-### Export services via port binding
+## [VII. Associations de ports](./port-binding)
+### Exportez les services via des associations de ports
 
-## [VIII. Concurrency](./concurrency)
-### Scale out via the process model
+## [VIII. Concurrence](./concurrency)
+### Grossissez à l'aide du modèle de processus
 
-## [IX. Disposability](./disposability)
-### Maximize robustness with fast startup and graceful shutdown
+## [IX. Jetable](./disposability)
+### Maximisez la robustessse avec des démarrages rapides et des arrêts gracieux
 
-## [X. Dev/prod parity](./dev-prod-parity)
-### Keep development, staging, and production as similar as possible
+## [X. Parité dev/prod](./dev-prod-parity)
+### Gardez le développement, la validation et la production aussi proches que possible
 
 ## [XI. Logs](./logs)
-### Treat logs as event streams
+### Traitez les logs comme des flux d'évènements
 
-## [XII. Admin processes](./admin-processes)
-### Run admin/management tasks as one-off processes
+## [XII. Processus d'administration](./admin-processes)
+### Lancez les processus d'administration et de maintenance comme des processus

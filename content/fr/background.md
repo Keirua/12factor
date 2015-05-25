@@ -1,4 +1,4 @@
-Background
+Contexte
 ==========
 
 Les contributeurs de ce document on été directement impliqués dans le développement et le déploiement de centaines d'applications, et ont vu, indirectement, le développement, la gestion et le grossissement de centaines de milliers d'applications via le travail fait sur la plateforme [Heroku](http://www.heroku.com/).
