@@ -28,11 +28,11 @@ Si l'on résume cela en un tableau :
   </tr>
   <tr>
     <th>Auteurs du code et ceux qui le déploient</th>
-    <td>Des personnesd différentes</td>
-    <td>Les mêmes personnesSame people</td>
+    <td>Des personnes différentes</td>
+    <td>Les mêmes personnes</td>
   </tr>
   <tr>
-    <th>L'environnement de développent et celui de productionDev vs production environments</th>
+    <th>L'environnement de développement et celui de production</th>
     <td>Divergent</td>
     <td>Aussi similaire que possible</td>
   </tr>
