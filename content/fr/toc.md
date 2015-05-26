@@ -8,16 +8,16 @@ Les 12 facteurs
 ### Déclarez explicitement et isolez les dépendances
 
 ## [III. Configuration](./config)
-### Stockez la configuation dans l'environnement
+### Stockez la configuration dans l'environnement
 
 ## [IV. Services externes](./backing-services)
 ### Traitez les services externes comme des ressources attachées
 
 ## [V. Build, release, run](./build-release-run)
-### Séparez strictment les étapes d'assemblage et d'exécution
+### Séparez strictement les étapes d'assemblage et d'exécution
 
 ## [VI. Processus](./processes)
-### Exécutez l'application comme un ou plusieurs processus sans états
+### Exécutez l'application comme un ou plusieurs processus sans état
 
 ## [VII. Associations de ports](./port-binding)
 ### Exportez les services via des associations de ports
